@@ -1,3 +1,3 @@
 # compiler
 
-  Node server with Pug, Sass and CoffeeScript
+  Node server with front-end Pug/Sass/CoffeeScript compiler
