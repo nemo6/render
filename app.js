@@ -1,7 +1,7 @@
 var http         = require('http')
 var fs           = require('fs')
 var path         = require('path')
-var port         = 8080
+var port         = process.env.token
 
 var pug          = require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/pug')
 var sass         = require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/sass')
@@ -9,7 +9,7 @@ var coffeescript = require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/c
 
 http.createServer(function (req, res) {
 	
-	res.writeHead(200,{'content-type': 'text/html'})
+	res.writeHead(200,{'content-type':'text/html'})
 
 	console.log(req.url)
 	
