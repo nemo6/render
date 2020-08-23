@@ -1,7 +1,7 @@
 var http         = require('http')
 var fs           = require('fs')
 var path         = require('path')
-var port         = process.env.token
+var port         = process.env.PORT
 
 var pug          = require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/pug')
 var sass         = require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/sass')
